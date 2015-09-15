@@ -1,21 +1,17 @@
 <?php
 // File creation date is : 9/15/15 (mm/dd/yy)
 
-/*if and elseif Statement*/
-
-$value0 = 7; // change value to '5', then '6', then '7'
-if ($value0 < 6) {
+$var0 = 7;
+if ($var0 < 6) {
     var_dump("if working");
-} elseif ($value0 <= 6) {
+} elseif ($var0 <= 6) {
     var_dump("elseif working");
 } else {
     var_dump("else working");
 }
 
-/*Switch Statement*/
-
-$value1 = 'A'; // change value to '1', then '2', then '3'
-switch ($value1) {
+$var1 = 'A';
+switch ($var1) {
     case 1:
         var_dump('value = 1');
         break;

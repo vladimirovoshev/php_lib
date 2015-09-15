@@ -3,10 +3,10 @@
 
 $decimal = 123456789;
 $decimalNegative = -123456789;
-$binary = 0b11111111; // the best option (will output '255')
+$binary = 0b11111111;
 
 $divisionInt = ((int)(25 / 7));
-$divisionRound = round(25 / 7); // the best option (will output '4')
+$divisionRound = round(25 / 7);
 $divisionDefault = 25 / 7;
 
 var_dump($decimal, '<br />', $decimalNegative, '<br />', $binary, '<br />',
